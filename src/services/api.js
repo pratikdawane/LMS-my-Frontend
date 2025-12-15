@@ -3,8 +3,8 @@ import axios from 'axios'
 /**
  * API Base URL - Uses environment variable or defaults to localhost
  */
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000"  // ||  import.meta.env.VITE_API_BASE_URL
-
+// const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000"  // ||  import.meta.env.VITE_API_BASE_URL
+const API_BASE_URL = "http://localhost:4000/api"
 /**
  * API Request Timeout - Uses environment variable or defaults to 30 seconds
  */
